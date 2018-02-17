@@ -10,16 +10,16 @@ R has a world maps package which can be installed in the R shell. Also install t
 ```
 > install.packages("maps")
 > install.packages("mapdata")
-`
+```
 
 Starting up the library maps with the command produces a comical warning:
 
 ```
 > library(maps)
 
- # ATTENTION: maps v3.0 has an updated 'world' map.        #
- # Many country borders and names have changed since 1990. #
- # Type '?world' or 'news(package="maps")'. See README_v3. #
+ ATTENTION: maps v3.0 has an updated 'world' map.       
+ Many country borders and names have changed since 1990.
+ Type '?world' or 'news(package="maps")'. See README_v3.
 ```
 
 Making a world map is easy with the `map()` command in this package, but first make a color palette that not hard on the eyes. I choose a grayscale, but this could be a rainbow, or any other color vector, based on say population or cheese production.
